@@ -2,14 +2,11 @@ package main
 
 import (
 	"fmt"
-	f "fmt"
-	"runtime"
+
+	"github.com/brandong1/mascot"
 )
 
-// Print practice
-
 func main() {
-	fmt.Println("Hi! I want to be a Gopher!")
-	f.Println("Hi! I want to be a Pickle!")
-	f.Println(runtime.NumCPU())
+	fmt.Println(mascot.BestMascot())
+	fmt.Println(quote.Go())
 }
