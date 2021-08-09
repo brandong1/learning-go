@@ -8,5 +8,4 @@ import (
 
 func main() {
 	fmt.Println(mascot.BestMascot())
-	fmt.Println(quote.Go())
 }
